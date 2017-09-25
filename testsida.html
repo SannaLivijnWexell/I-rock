@@ -1,46 +1,64 @@
 <!doctype html>
 <html>
 <head>
-<title>En sida om mat</title>
-<meta charset="utd-8">
+	<meta charset="utd-8">
+	<meta http-wquiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mina absoluta favoriter</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
 </head>
 <body>
-	<h1>En sida om mat</h1>
-<p>
-	Mina absoluta favoriträtter
-	<h2>Ramen</h2>
-<img src="ramensoppa_.jpeg" alt="Ramensoppa" style="width:350px;height:350px;">
+
+	<h1>Mina absoluta favoriträtter!</h1>
+	<p class="toppstreck">
+		Sannas absoluta favoriträtter</p>
+		<h2>Ramen</h2>
+		<img src="ramensoppa_.jpeg" alt="Ramensoppa" style="width:350px;height:350px;">
+		<br>
+		<a href="https://www.mathem.se/recept/ramensoppa-med-kyckling/"target="_blank">Ramensoppa</a>
+		<ul>
+			<li>God</li>
+			<li>mums</li>
+			<li>yes</li>
+		</ul>
+	
+	<div class="fisksoppa">
+		<img src="fisksoppa-fredrik-matkasse.jpg" alt="Fisksoppa" style="width:350px;height:350px;">
+		<br>
+		<a href="https://www.mathem.se/recept/fredrik-jonssons-fisksoppa-pa-klar-buljong-med-aioli/"target="blank">Fisksoppa
+		</a>
+	</div>
 <br>
-	<a href="https://www.mathem.se/recept/ramensoppa-med-kyckling/"target="_blank">Ramensoppa</a>
-<ul style="list-style-type:disc">
-	<li>God</li>
-	<li>mums</li>
-	<li>yes</li>
-</ul>
-</p>
-<p>
-	<img src="fisksoppa-fredrik-matkasse.jpg" alt="Fisksoppa" style="width:350px;height:350px;">
-	<br>
-	<a href="https://www.mathem.se/recept/fredrik-jonssons-fisksoppa-pa-klar-buljong-med-aioli/"target="blank">Fiskis
-	</a>
-</p>
-<form id="form" name="form" method="post" action=" ">
-	Förnamn:<br />
-	<input type="text" name="fnamn" id=fnamn"/><br />
-	Efternamn:<br />
-<input type="text" name="enamn" id="enamn" /> <br />
-
-E-postadress:<br />
-<input type="text" name="epost" id="epost" /> <br />
-
-Meddelande:<br />
-<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
-
-<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
-
-</form>
+	<p class="formular">
+	Har du frågor om rätterna?</p>
 
 
+
+	<form id="form" name="form" method="post" action=" ">
+		<p>Förnamn:<br />
+		<input type="text" name="fnamn" id="fnamn"/></p>
+		<p>Efternamn: <br>
+		<input type="text" name="enamn" id="enamn" /> </p>
+		<p>E-postadress:<br>
+		<input type="text" name="epost" id="epost" /> <br /></p>
+		<p>Meddelande:<br>
+		<textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> </p>
+		<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+
+	</form>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">Mat 1</div>
+		<div class="col-sm-4">Mat 2</div>
+		<div class="col-sm-4">Mat 3</div>
+	</div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

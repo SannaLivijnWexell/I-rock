@@ -1,0 +1,33 @@
+body {
+	background: rgb(20,250,200);
+font-size: 12pt;
+font-family: Helvetica;
+max-width: 980px;
+margin: 40px;
+text-align: center;
+}
+h1 {
+color: rgb(256, 99, 99);
+font-family: Helvetica;
+}
+a {
+color: rgb(256,99,33);
+}
+.toppstreck {
+border-bottom: 1px solid rgb(250, 250, 250);
+padding-bottom: 5px;
+}
+.fisksoppa{
+text-align: center;
+}
+.formular{
+border-bottom: 1px solid rgb(256, 99, 99);
+padding-bottom: 5px;
+}
+ul {
+color: pink;
+width: 50px;
+    margin: 0 auto;
+}
+
+
